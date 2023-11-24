@@ -16,7 +16,7 @@ int i;
 
 for ( i = 0; i < 5; i++)
 {
-    printf("Digite o nome da %dº pessoa", i + 1);
+    printf("Digite o nome da %dÂº pessoa", i + 1);
     gets(nomes[i]);
 
    for ( j = 0; j < 1; j++)
@@ -49,12 +49,12 @@ for ( i = 0; i < 5; i++)
         }
         
 		
-		printf("\nMédia: %.1f \n", media[i]);
+		printf("\nMÃ©dia: %.1f \n", media[i]);
 		
 		if(media[i] >= 7 ) {
 			printf("Aprovado! \n");
 		} else if(media[i] >= 5 ) {
-			printf("Recuperação! \n");
+			printf("RecuperaÃ§Ã£o! \n");
 		} else {
 			printf("Reprovado! \n");
 		}
